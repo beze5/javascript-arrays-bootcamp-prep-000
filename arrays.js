@@ -26,7 +26,10 @@ function destructivelyAddElementToBeginningOfArray(testArray, beginningElement){
   return array;
 }
 
-
+	function addElementToEndOfArray(array, item){
+  var newArray = array;
+  newArray.push(item);
+  return newArray;
 
 
 
