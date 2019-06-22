@@ -60,9 +60,9 @@ function destructivelyRemoveElementFromBeginningOfArray(anArray){
   return anArray;
 }
 
-function removeElementFromBeginningOfArray
+function removeElementFromBeginningOfArray(){
 
-
+}
 
 
 
