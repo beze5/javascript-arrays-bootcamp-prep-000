@@ -77,3 +77,13 @@ function destructivelyRemoveElementFromEndOfArray(thisArray){
   return thisArray
 }
 
+// the length propery of arrays can help us define how far we want to slice (which parts do we want to use of the array?)
+var iceCreams = ["chocolate", "vanilla", "raspberry"];
+iceCreams.slice(0, iceCreams.length - 1);
+iceCreams // slice method does not alter the original
+
+function removeElementFromEndOfArray(array){
+  array.slice(0, array.length - 1);
+  return array;
+}
+  
