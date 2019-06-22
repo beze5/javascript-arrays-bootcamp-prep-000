@@ -38,11 +38,14 @@ entrepreneurs[9];
 
 
 
+
 // ACCESS ELEMENT IN AN ARRAY
 
 function accessElementInArray(array, index){
   return array[index];
 }
+
+
 
 
 
