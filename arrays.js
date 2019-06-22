@@ -40,3 +40,26 @@ function destructivelyRemoveElementFromBeginningOfArray(anArray){
   return anArray;
 }
 
+//the slice method removes specifically identified elements from an array
+
+var cats = ["Milo", "Garfield", "Otis"];
+cats.slice(1); //this will take out the first element in the array
+cats; // this will print the array as it was without the removal (you must use slice to print an array with items removed)
+
+var cats = ["Milo", "Garfield", "Otis"]
+cats = cats.slice(1)
+cats // in order for slice method's results to stick around, they must be saved to a new variable (or just reuse the original one to redefine it)
+
+var cats = ["Milo", "Garfield", "Otis"]
+
+// if we want the last two elements of the array, we can use...
+cats.slice(-2)
+//this would give us ["Garfield", "Otis"]
+
+cats.slice(-1)
+//this would give us ["Otis"]
+
+function removeElementFromBeginningOfArray(array){
+  array.slice(1)
+  return array
+}
