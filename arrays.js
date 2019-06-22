@@ -12,4 +12,6 @@ function destructivelyAddElementToBeginningOfArray(testArray, beginningElement){
   return testArray
 }
 
-  
+var entrepreneurs = ["Oprah Winfrey", "Laurene Powell Jobs", "Arianna Huffington"];
+
+console.log(entrepreneurs[0]);
