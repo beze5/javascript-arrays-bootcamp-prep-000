@@ -111,4 +111,3 @@ items = [1, 2, 3, 4]
 // it returns the removed items: [2]
 // and adds the items to add starting at the removal index
 
-
