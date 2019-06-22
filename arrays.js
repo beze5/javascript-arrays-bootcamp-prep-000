@@ -19,7 +19,7 @@ function destructivelyAddElementToBeginningOfArray(testArray, beginningElement){
 }
 
 
-// ADD ELEMENT TO THE END OF AN arrays
+// ADD ELEMENT TO THE END OF AN ARRAY
 
 	function destructivelyAddElementToEndOfArray(array, item){
   array.push(item);
@@ -49,20 +49,6 @@ function accessElementInArray(array, index){
 
 
 
-// these are notes on removing an element from an array 
-
-const days = ["Monday", "Tuesday", "Wednesday"];
-
-days.shift(); // this removes the first element in the array (Monday)
-
-days; // this returns the array without the removed (first) element, Monday
-
-
-
-
-
-
-
 
 
 // REMOVE FROM THE BEGINNING OF AN ARRAY
@@ -79,30 +65,9 @@ function removeElementFromBeginningOfArray(array){
 
 
 
+// REMOVE FROM THE BEGINNING OF AN ARRAY
 
 
-
-
-
-
-//the slice method removes specifically identified elements from an array
-
-var cats = ["Milo", "Garfield", "Otis"];
-cats.slice(1); //this will take out the first element in the array
-cats; // this will print the array as it was without the removal (you must use slice to print an array with items removed)
-
-var cats = ["Milo", "Garfield", "Otis"]
-cats = cats.slice(1)
-cats // in order for slice method's results to stick around, they must be saved to a new variable (or just reuse the original one to redefine it)
-
-var cats = ["Milo", "Garfield", "Otis"]
-
-// if we want the last two elements of the array, we can use...
-cats.slice(-2)
-//this would give us ["Garfield", "Otis"]
-
-cats.slice(-1)
-//this would give us ["Otis"]
 
 function removeElementFromBeginningOfArray(array){
   array.slice(0)
@@ -112,15 +77,6 @@ function removeElementFromBeginningOfArray(array){
 function removeElementFromBeginningOfArray(array){
   array.shift()
 }
-// the pop method removes elements from the end of an array
-var iceCreams = ["chocolate", "vanilla", "raspberry"]
-
-iceCreams.pop()
-//returns the removed element; in this case, raspberry
-
-iceCreams //this will return ["chocolate", "vanilla"]; similar to the push method, pop is destructive and alters the original array
-
-
 
 
 
