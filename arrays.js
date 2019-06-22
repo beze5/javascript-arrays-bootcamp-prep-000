@@ -35,5 +35,8 @@ days.shift(); // this removes the first element in the array (Monday)
 
 days; // this returns the array without the removed (first) element, Monday
 
-destructivelyRemoveElementFromBeginningOf
+function destructivelyRemoveElementFromBeginningOfArray(anArray){
+  anArray.shift();
+  return anArray;
+}
 
