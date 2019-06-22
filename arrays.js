@@ -72,9 +72,7 @@ function removeElementFromBeginningOfArray(array){
   return newArray;
 }
 
-function removeElementFromBeginningOfArray(array){
-  array.shift()
-}
+
 
 
 
