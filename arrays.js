@@ -60,12 +60,12 @@ cats.slice(-1)
 //this would give us ["Otis"]
 
 function removeElementFromBeginningOfArray(array){
-  array.slice(1)
+  array.slice(0)
   return array
 }
 
 function removeElementFromBeginningOfArray(array){
-  
+  array.shift()
 }
 // the pop method removes elements from the end of an array
 var iceCreams = ["chocolate", "vanilla", "raspberry"]
