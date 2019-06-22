@@ -1,5 +1,11 @@
+// SIMPLE ARRAY CREATION
+
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
+
+
+
+// ADD TO BEGINNING OF ARRAY
 function addElementToBeginningOfArray(testArray, beginningElement){
   var newArray = testArray;
   newArray.unshift(beginningElement);
@@ -11,6 +17,13 @@ function destructivelyAddElementToBeginningOfArray(testArray, beginningElement){
   testArray.unshift(beginningElement);
   return testArray
 }
+
+
+
+
+
+
+// NOTES
 
 //these are notes on selecting and using specific elements from arrays
 
@@ -35,10 +48,30 @@ days.shift(); // this removes the first element in the array (Monday)
 
 days; // this returns the array without the removed (first) element, Monday
 
+
+
+
+
+
+// REMOVE FROM THE BEGINNING OF AN ARRAY
+
 function destructivelyRemoveElementFromBeginningOfArray(anArray){
   anArray.shift();
   return anArray;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //the slice method removes specifically identified elements from an array
 
