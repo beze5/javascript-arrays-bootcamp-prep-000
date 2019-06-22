@@ -116,7 +116,10 @@ function destructivelyRemoveElementFromEndOfArray(thisArray){
   return thisArray
 }
 
-
+function removeElementFromEndOfArray(array){
+  array.slice(0, array.length - 1);
+  return array;
+}
 
 
 
@@ -128,10 +131,7 @@ var iceCreams = ["chocolate", "vanilla", "raspberry"];
 iceCreams.slice(0, iceCreams.length - 1);
 iceCreams // slice method does not alter the original
 
-function removeElementFromEndOfArray(array){
-  array.slice(0, array.length - 1);
-  return array;
-}
+
   
 // the splice method can return an element from the middle of an array, but it can be tricky. The splice method takes an index in the array as its first argument, the number of elements to remove as its second argument, and any number of elements to add as any arguments after the second. All arguments are optional. 
 
