@@ -72,7 +72,7 @@ iceCreams.pop()
 
 iceCreams //this will return ["chocolate", "vanilla"]; similar to the push method, pop is destructive and alters the original array
 
-function destructiveRemoveElementFromEndOfArray(thisArray){
+function destructivelyRemoveElementFromEndOfArray(thisArray){
   thisArray.pop()
   return thisArray
 }
