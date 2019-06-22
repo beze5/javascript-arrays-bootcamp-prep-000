@@ -24,4 +24,5 @@ console.log(entrepreneurs[2] + bio);
 entrepreneurs[9];
 
 function accessElementInArray(array, index){
-  return array
+  return array[index];
+}
