@@ -56,7 +56,7 @@ days; // this returns the array without the removed (first) element, Monday
 // REMOVE FROM THE BEGINNING OF AN ARRAY
 
 function destructivelyRemoveElementFromBeginningOfArray(anArray){
-  anArray.shift();
+  anArray.push();
   return anArray;
 }
 
