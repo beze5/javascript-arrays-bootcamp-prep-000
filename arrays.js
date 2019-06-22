@@ -36,9 +36,17 @@ console.log(entrepreneurs[2] + bio);
 
 entrepreneurs[9];
 
+
+
+// ACCESS ELEMENT IN AN ARRAY
+
 function accessElementInArray(array, index){
   return array[index];
 }
+
+
+
+
 
 // these are notes on removing an element from an array 
 
