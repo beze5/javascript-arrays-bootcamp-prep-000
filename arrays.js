@@ -63,3 +63,17 @@ function removeElementFromBeginningOfArray(array){
   array.slice(1)
   return array
 }
+
+// the pop method removes elements from the end of an array
+var iceCreams = ["chocolate", "vanilla", "raspberry"]
+
+iceCreams.pop()
+//returns the removed element; in this case, raspberry
+
+iceCreams //this will return ["chocolate", "vanilla"]; similar to the push method, pop is destructive and alters the original array
+
+function destructiveRemoveElementFromEndOfArray(thisArray){
+  thisArray.pop()
+  return thisArray
+}
+
