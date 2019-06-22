@@ -110,6 +110,8 @@ iceCreams //this will return ["chocolate", "vanilla"]; similar to the push metho
 
 
 
+
+
 //REMOVE ELEMENT FROM END OF ARRAY
 function destructivelyRemoveElementFromEndOfArray(thisArray){
   thisArray.pop()
