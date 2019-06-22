@@ -87,3 +87,28 @@ function removeElementFromEndOfArray(array){
   return array;
 }
   
+// the splice method can return an element from the middle of an array, but it can be tricky. The splice method takes an index in the array as its first argument, the number of elements to remove as its second argument, and any number of elements to add as any arguments after the second. All arguments are optional. 
+
+let items = [1, 2, 3, 4]
+
+// this will remove everything after index 1 (inclusive)
+// it returns the removed items: [2, 3, 4]
+
+items.splice(1)
+items 
+// this will return 1 
+
+items = [1, 2, 3, 4]
+
+// "at index 1, remove 1 item"
+// it returns the removed item(2): [2]
+
+items.splice(1, 1)
+items
+items = [1, 2, 3, 4]
+
+// "at index 1, remove 1 item and add 6 and 7"
+// it returns the removed items: [2]
+// and adds the items to add starting at the removal index
+
+
