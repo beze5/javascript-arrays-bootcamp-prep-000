@@ -108,10 +108,20 @@ iceCreams.pop()
 
 iceCreams //this will return ["chocolate", "vanilla"]; similar to the push method, pop is destructive and alters the original array
 
+
+
+//REMOVE ELEMENT FROM END OF ARRAY
 function destructivelyRemoveElementFromEndOfArray(thisArray){
   thisArray.pop()
   return thisArray
 }
+
+
+
+
+
+
+
 
 // the length propery of arrays can help us define how far we want to slice (which parts do we want to use of the array?)
 var iceCreams = ["chocolate", "vanilla", "raspberry"];
