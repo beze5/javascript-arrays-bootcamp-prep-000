@@ -68,8 +68,8 @@ function removeElementFromBeginningOfArray(array){
 
 
 function removeElementFromBeginningOfArray(array){
-  array.slice(0)
-  return array
+  var newArray = array.slice(0)
+  return newArray
 }
 
 function removeElementFromBeginningOfArray(array){
