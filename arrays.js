@@ -64,6 +64,9 @@ function removeElementFromBeginningOfArray(array){
   return array
 }
 
+function removeElementFromBeginningOfArray(array){
+  
+}
 // the pop method removes elements from the end of an array
 var iceCreams = ["chocolate", "vanilla", "raspberry"]
 
